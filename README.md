@@ -2,7 +2,7 @@
 
 this:
 ```js
-require('describe-jsdom'); //better add to test/mocha.opts
+require('describe-jsdom');
 
 describe.jsdom('my thing', function () {
   //...
@@ -31,7 +31,3 @@ available via npm:
 $ npm install --save-dev jsdom-gloabl
 ```
 
-optionally add to your `test/mocha.opts` so you only require it once:
-```sh
--r describe-jsdom
-```
