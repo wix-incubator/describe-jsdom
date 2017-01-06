@@ -18,6 +18,7 @@ describe('my thing', function () {
 
   //...
 });
+```
 
 that is all.
 
