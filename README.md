@@ -13,8 +13,14 @@ turns into this:
 ```js
 describe('my thing', function () {
   let cleanup;
-  beforeEach(() => cleanup = require('jsdom-global')());
-  afterEach(() => cleanup());
+
+  beforeEach(function () {
+    cleanup = require('jsdom-global')());
+  });
+
+  afterEach(function () {
+    cleanup();
+  });
 
   //...
 });
