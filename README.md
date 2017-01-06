@@ -15,7 +15,7 @@ describe('my thing', function () {
   let cleanup;
 
   beforeEach(function () {
-    cleanup = require('jsdom-global')());
+    cleanup = require('jsdom-global')();
   });
 
   afterEach(function () {
