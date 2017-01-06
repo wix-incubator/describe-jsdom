@@ -1,0 +1,38 @@
+{
+  "name": "describe-jsdom",
+  "version": "1.0.0",
+  "author": {
+    "name": "Shahar Talmi",
+    "email": "shahart@wix.com",
+    "url": ""
+  },
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "wix-node-build start",
+    "pretest": "wix-node-build lint && wix-node-build build",
+    "build": ":",
+    "test": "wix-node-build test",
+    "release": "wix-node-build release"
+  },
+  "dependencies": {
+    "jsdom-global": "^2.1.1"
+  },
+  "private": false,
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "enzyme": "^2.7.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "wix-node-build": "latest"
+  },
+  "eslintConfig": {
+    "extends": "wix/esnext"
+  },
+  "publishConfig": {
+    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+  }
+}
