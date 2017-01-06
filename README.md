@@ -34,6 +34,6 @@ need to pass special config to `jsdom-global`? then use the longer form as shown
 
 available via npm:
 ```sh
-$ npm install --save-dev jsdom-gloabl
+$ npm install --save-dev describe-jsdom
 ```
 
