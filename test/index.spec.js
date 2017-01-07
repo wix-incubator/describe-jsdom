@@ -20,6 +20,12 @@ describe.jsdom('with jsom', () => {
   });
 });
 
+describe.jsdom('after/before each has window', () => {
+  beforeEach(() => global.window.aaa = 1);
+  afterEach(() => expect(global.window.aaa).to.equal(1));
+  it('should do nothing', () => undefined);
+});
+
 describe('without jsdom', () => {
   it('should fail to mount element', () => {
     expect(() => mount(React.createElement('div', null, 'hello world!'))).to.throw('global document');

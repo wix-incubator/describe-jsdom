@@ -5,7 +5,7 @@ this:
 require('describe-jsdom');
 
 describe.jsdom('my thing', function () {
-  //...
+  //your stuff...
 });
 ```
 
@@ -18,11 +18,11 @@ describe('my thing', function () {
     cleanup = require('jsdom-global')();
   });
 
+  //your stuff...
+
   afterEach(function () {
     cleanup();
   });
-
-  //...
 });
 ```
 
