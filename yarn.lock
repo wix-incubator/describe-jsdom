@@ -2196,6 +2196,18 @@ fbjs@^0.8.1, fbjs@^0.8.4:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.9"
 
+fbjs@^0.8.9:
+  version "0.8.12"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.9"
+
 fd-slicer@~1.0.1:
   version "1.0.1"
   resolved "http://repo.dev.wix:80/api/npm/npm-repos/fd-slicer/-/fd-slicer-1.0.1.tgz#8b5bcbd9ec327c5041bf9ab023fd6750f1177e65"
@@ -4619,11 +4631,7 @@ lowercase-keys@^1.0.0:
   version "1.0.0"
   resolved "http://repo.dev.wix:80/api/npm/npm-repos/lowercase-keys/-/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
 
-lru-cache@2:
-  version "2.7.3"
-  resolved "http://repo.dev.wix:80/api/npm/npm-repos/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
-
-lru-cache@2.2.x:
+lru-cache@2, lru-cache@2.2.x:
   version "2.2.4"
   resolved "http://repo.dev.wix:80/api/npm/npm-repos/lru-cache/-/lru-cache-2.2.4.tgz#6c658619becf14031d0d0b594b16042ce4dc063d"
 
@@ -6029,6 +6037,13 @@ react-dom@^15.4.2:
   dependencies:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
+    object-assign "^4.1.0"
+
+react-test-renderer@^15.5.4:
+  version "15.5.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-test-renderer/-/react-test-renderer-15.5.4.tgz#d4ebb23f613d685ea8f5390109c2d20fbf7c83bc"
+  dependencies:
+    fbjs "^0.8.9"
     object-assign "^4.1.0"
 
 react@^15.4.2:

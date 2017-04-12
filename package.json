@@ -11,11 +11,11 @@
     "src"
   ],
   "scripts": {
-    "start": "wix-node-build start",
-    "pretest": "wix-node-build lint && wix-node-build build",
+    "start": "yoshi start",
+    "pretest": "yoshi lint && yoshi build",
     "build": ":",
-    "test": "wix-node-build test",
-    "release": "wix-node-build release"
+    "test": "yoshi test",
+    "release": "yoshi release"
   },
   "dependencies": {
     "jsdom-global": "^2.1.1"
@@ -28,7 +28,7 @@
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-test-renderer": "^15.5.4",
-    "wix-node-build": "latest"
+    "yoshi": "latest"
   },
   "eslintConfig": {
     "extends": "wix/esnext"
