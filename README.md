@@ -1,5 +1,7 @@
 # describe-jsdom
 
+[![Build Status](https://travis-ci.org/wix/describe-jsdom.svg?branch=master)](https://travis-ci.org/wix/describe-jsdom)
+
 this:
 ```js
 require('describe-jsdom');
